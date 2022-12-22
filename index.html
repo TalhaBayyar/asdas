@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/dist/output.css">
+    <link rel="stylesheet" href="/src/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Indie+Flower&family=Permanent+Marker&family=Sarabun:wght@500;800&display=swap'); </style>
+
+    <title>Document</title>
+</head>
+<body class="bg-black text-white">
+   
+    <!-- ---------Header Start--------- -->
+    <div class="w-[100%] h-[100vh] bg-[url('/img/background-images.jpg')] text-center bg-cover bg-center">
+        <!-- ---------Container Start--------- -->
+        <div class="md:container md:mx-auto">
+            <!-- ---------Nav Start--------- -->
+              
+            <nav class="navbar fixed z-[1] top-0 left-0 flex items-center justify-center w-[100%] h-[64px] box-border  mt-8">
+               
+
+                     
+                <div class="navbar-overlay fixed z-[2] top-0 left-0 w-[100%] h-[100%] invisible opacity-0" onclick="toggleMenuOpen()"></div>
+                
+                <button type="button" class="navbar-burger absolute top-0 left-0 grid place-items-center w-[64px] h-[64px] p-0" onclick="toggleMenuOpen()">
+                    <span class="material-icons"><i class="fa-solid fa-bars"></i></span>
+                </button>
+                <div class="navbar-title h-auto w-[70px] text-[16px">
+                   <a href="index.html" class="text-blue-300 hover:text-blue-400 hover:animate-pulse "><img class="ml-[145px]" src="/img/Yeni_Proje__8_-removebg-preview.png" alt=""></a> 
+                </div> 
+                 <nav class="navbar-menu ml-auto flex fixed flex-col items-start invisible mr-[125px] z-3 top-0 left-0 translate-x[100%] translate-y-0 w-[270px] h-[100%] bg-black p-4 gap-[16px] font-bold text-[20px]">
+                    <div class="py-0 px-2"><a href="#" class=""><span class="text-blue-300 hover:text-blue-400 hover:animate-pulse hover:border-b-4 ">Home</span> </a></div>
+                    <div class="py-0 px-2"><a href="#"><span class="text-blue-300 hover:text-blue-400 hover:animate-pulse hover:border-b-4">About</span></a></div>
+                    <div class="py-0 px-2"><a href=""><span class="text-blue-300 hover:text-blue-400 hover:animate-pulse hover:border-b-4">Services</span></a></div>
+                    <div class="py-0 px-2"><a href=""><span class="text-blue-300 hover:text-blue-400 hover:animate-pulse hover:border-b-4">Portfolio</span></a> </div>
+                    <div class="py-0 px-2"><a href=""><span class="text-blue-300 hover:text-blue-400 hover:animate-pulse hover:border-b-4">Contact</span></a> </div>
+                </nav>
+
+
+
+              
+                
+           
+            </nav><!-- ---------Nav End--------- -->
+
+            <!-- ---------Personal Description--------- -->
+            <div class="pt-64 xl:text-left xl:float-left xl:relative xl:right-5">
+                <p class="text-[#dcebf3] --tw-text-opacity: 15; text-[30px]">
+                    Fron-End Developer<br>
+                    <p class="text-[#dcebf3] --tw-text-opacity: 15; text-[56px]">Hi, I'm <span class="text-[#dcebf3] --tw-text-opacity: 15; font-bold  shadow-lg shadow-cyan-500">Talha</span> <br>
+                        From Turkey</p>
+                </p>
+            </div>
+         
+            <!-- ---------Personal Description--------- -->
+
+            
+
+        </div><!-- ---------Container End--------- -->
+
+
+       
+
+
+
+
+
+
+        
+        
+        
+    </div> <!-- ---------Header End--------- -->
+
+    <div class="md:container md:mx-auto">
+        <div class="bg-black">
+            <div class="md:grid grid-flow-row-dense grid-cols-2 grid-rows-4 pt-10">
+                <div class="md:row-span-6"><img class="rounded-2xl w-[346px] h-auto block m-auto" src="/img/Talha-Bayyar.jpg" alt=""></div>
+
+
+
+                <div class="sm:relative md:relative lg:relative xl:relative 2xl:relative sm:text-center md:text-left lg:text-left xl:text-left 2xl:text-left sm:m-0 min-[220px]:text-center max-[600px]:bg-sky-300">
+                    <h1 class="text-[#dcebf3] --tw-text-opacity: 15; text-[26px]">About Me</h1>
+
+                    <p class="text-[#dcebf3] --tw-text-opacity: 15; text-[17px] sm:m-0 sm:p-0 md:m-0 md:p-0 lg:m-0 lg:p-0 xl:m-0 xl:p-0 2xl:m-0 2xl:p-0">
+                        Dedicated to self-development and lifelong learning. I am a Software developer. I'm always active and new I am eager to learn skills. In this way constantly.I believe I can achieve better results. Currently, Html, Javascript, CSS, I'm working on Bootstrap, React. front-end and I'm learning javascript libraries
+                </div>
+
+
+
+                <div class="sm:relative md:relative lg:relative xl:relative 2xl:relative sm:text-center md:text-left lg:text-left xl:text-left 2xl:text-left sm:m-0 min-[220px]:text-center max-[600px]:bg-sky-300">
+                    <ul class="inline-flex text-center">
+
+                        <li class="pr-10 tab-links active-link" id="demo" onclick="opentab('skills')">Skills</li>
+                        <li class="pr-10 tab-links" onclick="opentab('experience')">Experience</li>
+                        <li class="pr-10 tab-links" onclick="opentab('education')">Education</li>
+                    </ul>
+                </div>
+
+
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                      <li><span>HTML & CSS</span><br />Web/App interfaces</li>
+                      <li><span>JavaScript</span><br />Web/App interfaces</li>
+                      <li><span>React</span><br />Web/App interfaces</li>
+                    </ul>
+                  </div>
+      
+                  <div class="tab-contents" id="experience">
+                    <ul>
+                      <li>
+                        <span>2021 - 2022</span><br />SH Marine Electrical - Engineer
+                      </li>
+                      <li><span>2020 - 2021</span><br />Online Internship - Software</li>
+                      <li>
+                        <span>2019 - 2020</span><br />TEKOM Electric and Electronic Mech. Ins. Singing. Trade
+                        Ltd. Sti. - Internship
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="tab-contents" id="education">
+                    <ul>
+                      <li>
+                        <li><span>2022</span><br />Kodluyoruz (Front-End)</li>
+                        <span>2016-2020</span><br />Eskişehir Osmangazi University-Economics
+                        
+                      </li>
+                      
+                    </ul>
+                  </div>
+
+
+
+                
+              </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        
+
+        <div class="md:grid grid-cols-4 gap-4 pt-10">
+            <div class="pt-10 ">
+                <div class="rounded-2xl w-[346px] h-[446px] block m-auto border-solid border-8 bg-black-200  hover:bg-sky-700">
+                    <div class="p-6 h-36 ">
+                        <i class="fa-brands fa-html5 text-orange-700 text-[55px]"></i>
+                        <h2 class="text-[#dcebf3] --tw-text-opacity: 15; text-[26px] pt-1">HTML5</h2>   
+                        <p>HTML 5 is a revision of the Hypertext Markup Language (HTML), the standard programming language for describing the contents and appearance of Web pages. HTML5 was developed to solve compatibility problems that affect the current standard, HTML4.</p>
+                        <a href="https://en.wikipedia.org/wiki/HTML5" target="_blank">Learn More..</a><p></p>
+                    </div>
+                    <div>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="pt-10 ">
+                <div class="rounded-2xl w-[346px] h-[446px] block m-auto border-solid border-8 bg-black-200  hover:bg-sky-700">
+                    <div class="p-6 h-36 ">
+                        <i class="fa-brands fa-css3-alt text-blue-300 text-[55px]"></i>
+                        <h2 class="text-[#dcebf3] --tw-text-opacity: 15; text-[26px] pt-1">CSS3</h2>   
+                        <p>HTML 5 is a revision of the Hypertext Markup Language (HTML), the standard programming language for describing the contents and appearance of Web pages. HTML5 was developed to solve compatibility problems that affect the current standard, HTML4.</p>
+                        <a href="https://en.wikipedia.org/wiki/HTML5" target="_blank">Learn More..</a><p></p>
+                    </div>
+                    <div>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="pt-10 ">
+                <div class="rounded-2xl w-[346px] h-[446px] block m-auto border-solid border-8 bg-black-200  hover:bg-sky-700">
+                    <div class="p-6 h-36 ">
+                        <i class="fa-brands fa-js text-yellow-300 text-[55px]"></i>
+                        <h2 class="text-[#dcebf3] --tw-text-opacity: 15; text-[26px] pt-1">JAVASCRIPT</h2>   
+                        <p>HTML 5 is a revision of the Hypertext Markup Language (HTML), the standard programming language for describing the contents and appearance of Web pages. HTML5 was developed to solve compatibility problems that affect the current standard, HTML4.</p>
+                        <a href="https://en.wikipedia.org/wiki/HTML5" target="_blank">Learn More..</a><p></p>
+                    </div>
+                    <div>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="pt-10 ">
+                <div class="rounded-2xl w-[346px] h-[446px] block m-auto border-solid border-8 bg-black-200  hover:bg-sky-700">
+                    <div class="p-6 h-36 ">
+                        <i class="fa-brands fa-react text-sky-200 text-[55px]"></i>
+                        <h2 class="text-[#dcebf3] --tw-text-opacity: 15; text-[26px] pt-1">REACT</h2>   
+                        <p>HTML 5 is a revision of the Hypertext Markup Language (HTML), the standard programming language for describing the contents and appearance of Web pages. HTML5 was developed to solve compatibility problems that affect the current standard, HTML4.</p>
+                        <a href="https://en.wikipedia.org/wiki/HTML5" target="_blank">Learn More..</a><p></p>
+                    </div>
+                    <div>
+                        
+                    </div>
+                </div>
+            </div>
+
+
+
+        
+
+
+
+          
+        </div>
+
+
+
+
+
+    </div>
+    
+    
+
+
+
+    <script src="/src/script.js"></script>
+
+
+
+    <script src="https://kit.fontawesome.com/e5780d148b.js" crossorigin="anonymous"></script>
+    
+
+</body>
+</html>
